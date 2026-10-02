@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+  <title>CineSense</title>
+  <link>https://raw.githubusercontent.com/bryzyvibe/CineSense-releases/main/appcast.xml</link>
+  <description>CineSense updates</description>
+  <language>en</language>
+<item>
+  <title>CineSense 2.129.0</title>
+  <pubDate>Fri, 02 Oct 2026 09:13:39 GMT</pubDate>
+  <sparkle:version>1190</sparkle:version>
+  <sparkle:shortVersionString>2.129.0</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.129.0</h2><ul><li>CineSense is now signed by Bryzr Studio and notarised by Apple: open it and macOS asks only the usual &quot;downloaded from the internet — Open?&quot;. No Terminal commands, no System Settings detour.</li><li>Opened from Downloads, CineSense offers to move itself into Applications, where it starts at login and updates install.</li><li>Updates come by themselves: CineSense checks once a day, and a new version is a line at the top of its menu — nothing pops up. An update never installs while a card, a transfer or an upload is in progress; it waits, then CineSense relaunches by itself. Settings → About → Check for Updates checks now, and &quot;Receive beta updates&quot; offers test versions first.</li><li>Something went wrong? Menu → Copy Diagnostics shows exactly what it will gather, can hide your card and folder names, and puts it all in a folder in Downloads for you to email to beta@bryzrstudio.com. CineSense never sends anything itself, and never includes footage, passwords or keys.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.129.0/CineSense-2.129.0.zip" length="20896779" type="application/octet-stream" sparkle:edSignature="Yx0JANxNLLuLI6pG+oTL7wzAXneR4TjJRBwkAhef6cTFfEG/eZuGwn+Jr4ymEAyC3LRDTcikFg3roLHg2U+YDg=="/>
+</item>
+</channel>
+</rss>
