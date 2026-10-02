@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.129.2</title>
+  <pubDate>Fri, 02 Oct 2026 15:30:21 GMT</pubDate>
+  <sparkle:version>1200</sparkle:version>
+  <sparkle:shortVersionString>2.129.2</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.129.2</h2><ul><li>A linked Dropbox, Google Drive, Backblaze B2 or Amazon S3 account now receives its sign-in or keys. Until this version none of them could connect, whatever you did; a Storage Box was never affected. If you linked one already, press Test again — there is nothing to re-link.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.129.2/CineSense-2.129.2.zip" length="20915657" type="application/octet-stream" sparkle:edSignature="fs3LZEwdTzsYl4iYVyZumlaknwKTzRO3t8SekZLreX28kxLq3KRR1QzrYx0ayDpRh1WAutpbFhVIXVp89PM5AA=="/>
+</item>
+<item>
   <title>CineSense 2.129.1</title>
   <pubDate>Fri, 02 Oct 2026 12:37:36 GMT</pubDate>
   <sparkle:version>1194</sparkle:version>
