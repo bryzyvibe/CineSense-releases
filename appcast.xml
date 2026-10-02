@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.129.1</title>
+  <pubDate>Fri, 02 Oct 2026 12:37:36 GMT</pubDate>
+  <sparkle:version>1194</sparkle:version>
+  <sparkle:shortVersionString>2.129.1</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.129.1</h2><ul><li>Opening CineSense from Downloads no longer adds a login item for a copy macOS deletes on restart. It starts at login once it is in your Applications folder — and if you choose &quot;Not Now&quot; on the move offer, it now says so.</li><li>Click the CineSense icon in the menu bar for its menu; right-click it for the ingest panel (it was the other way round). The panel still appears by itself when a card goes in, and stays in the menu as Ingest Panel.</li><li>CloudSense&#x27;s panel: two clear icons switch between the big card and the compact list, a bigger gear opens its settings, and &quot;Stay awake&quot; (a moon and a switch) sits alone at the bottom. Clicking the upload line in the menu always opens the big card.</li><li>A single large video uploads over one connection to a Storage Box or SFTP server, so a day of one big file goes slower than a day of many. The panel now says so when it happens, and Test connection shows that one-connection speed and what a single 100 GB file would take.</li><li>Copy Diagnostics reports memory the way About This Mac does (a 64 GB Mac says 64 GB).</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.129.1/CineSense-2.129.1.zip" length="20913008" type="application/octet-stream" sparkle:edSignature="360ZgUPnO3UqiSBH/FYX4Wg+n9qTfd0e+pr90fCgnq9agMTs5gfzYIkHfd4LI6a+43uzYwILZ6zkAqHbcnYyDw=="/>
+</item>
+<item>
   <title>CineSense 2.129.0</title>
   <pubDate>Fri, 02 Oct 2026 09:13:39 GMT</pubDate>
   <sparkle:version>1190</sparkle:version>
