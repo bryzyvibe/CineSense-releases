@@ -6,6 +6,16 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.140.0</title>
+  <pubDate>Sun, 04 Oct 2026 09:55:45 GMT</pubDate>
+  <sparkle:version>1299</sparkle:version>
+  <sparkle:shortVersionString>2.140.0</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>beta</sparkle:channel>
+  <description><![CDATA[<h2>CineSense 2.140.0</h2><ul><li>Every Dropbox and Google Drive sign-in asks the service who it is (Dropbox&#x27;s account id and email, Drive&#x27;s permissionId and email) and keeps it with the account. The card names it: `you@example.com · CineSense`.</li><li>Sign in again to a different account is never silent. A dialog names both — &quot;This is a different Dropbox account (new@…) from the one Dropbox was linked to (old@…)&quot; — with Cancel (blue: nothing changes; sign out of Dropbox in the browser first, then Sign in again) or **Use as a New Account** (the old account is unlinked — its History stays, nothing on either account is touched — and the new one is linked and tested).</li><li>An account linked before 2.140.0 learns who it is the first time Settings → CloudSense is opened (its own token, refreshed with its own client), and its next Sign in again compares with that. **bryzr&#x27;s Dropbox will read brian@bryzrstudio.com** — the account it is really linked to now; signing in again with the 5.5 TB account asks first.</li><li>If the service cannot be asked (offline), the sign-in goes through as before, is said as &quot;could not ask which account&quot;, and nothing recorded is erased; 2.138.1&#x27;s size check still speaks after the test.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.140.0/CineSense-2.140.0.zip" length="22808121" type="application/octet-stream" sparkle:edSignature="Nodg7F6ptFIcZlPix7yo+2CPFyrxiL34BKYLRO0eX6jHGfzuoJ7TDqe9Ay9RKNc9XrTNByQGtPzwKQOeJHDEAw=="/>
+</item>
+<item>
   <title>CineSense 2.129.2</title>
   <pubDate>Fri, 02 Oct 2026 15:30:21 GMT</pubDate>
   <sparkle:version>1200</sparkle:version>
