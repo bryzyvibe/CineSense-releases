@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.163.4</title>
+  <pubDate>Fri, 16 Oct 2026 07:51:11 GMT</pubDate>
+  <sparkle:version>2116</sparkle:version>
+  <sparkle:shortVersionString>2.163.4</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.163.4</h2><ul><li>Pull a drive out in the middle of a copy and CineSense stops within about a second and says so, plainly: what was copied and checked, what wasn&#x27;t, and what happened on the card. Nothing you haven&#x27;t got a checked copy of is ever removed from a card.</li><li>A Resolve timeline you rename is treated as your edit: later videos go on at its end, and any that were filmed in the middle wait in the day&#x27;s bin instead of being squeezed in.</li><li>The card panel says what each drive really needs for this copy, shows &quot;N copied&quot; the moment a card goes in (green once it&#x27;s proven), and never cuts a drive&#x27;s name.</li><li>Records has a calmer list: tick boxes appear when you hover, problem rows have a red or orange edge, numbers line up under their headings, and the footer tells you if something you ticked is scrolled out of view.</li><li>Reports: clearer names, one kind per report, and you can delete them. A finished copy or ingest now shows a Mac notification as well as the phone ping.</li><li>Smaller things: one size for a folder everywhere, every linked cloud account offered, a new glass meter for drive space, the CineTransfer window stays in front when you click it, and a slower, smoother light round the search box.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.163.4/CineSense-2.163.4.zip" length="31390380" type="application/octet-stream" sparkle:edSignature="zUbWhyLOeOlr/LXAQr06OUjjm9lBYASA5OF0iocdKDKgXs+umCFKzXY3rAzZNqgh0/wL/XqboovXN545IakMCA=="/>
+</item>
+<item>
   <title>CineSense 2.140.0</title>
   <pubDate>Sun, 04 Oct 2026 09:55:45 GMT</pubDate>
   <sparkle:version>1299</sparkle:version>
