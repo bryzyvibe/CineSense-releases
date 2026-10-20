@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.166.0</title>
+  <pubDate>Tue, 20 Oct 2026 16:47:14 GMT</pubDate>
+  <sparkle:version>2275</sparkle:version>
+  <sparkle:shortVersionString>2.166.0</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.166.0</h2><ul><li>CineSync → Fill: after a compare, CineSync shows a plan before anything moves — per drive, how many files, how much space, the new folders, whether it fits — and asks about anything it cannot be sure of, each with a suggested answer. Press Fill to run it.</li><li>Every copy is a CineSense copy: read back from the drive, recorded, with its receipt. Nothing is ever overwritten: a different file of the same name lands beside yours as &quot;&lt;name&gt; (from &lt;drive&gt;)&quot;.</li><li>Files CineSync adds carry a Finder tag, &quot;CineSync added&quot;. &quot;Remove what CineSync added&quot; shows what it would take first, takes only files still exactly as copied whose source is still safe on the other drive, and puts them in that drive&#x27;s Trash. &quot;Clear the tags&quot; removes only the tags.</li><li>A file you deleted from a drive since an earlier compare is &quot;removed since&quot; and left out unless you say put it back.</li><li>Correction to 2.165.0&#x27;s notes: a day&#x27;s single Chronological timeline on one track keeps Resolve&#x27;s own start time; timelines split by camera or frame rate start at 01:00:00:00, and Stacked at the time of day.</li><li>First install on a new Mac: the download opens without macOS&#x27;s &quot;Apple could not verify&quot; warning, and Move to Applications works. A copy unzipped from an earlier download is repaired as it moves.</li><li>CineSense&#x27;s own typefaces look the same on every Mac: titles are bold again where another copy of the Archivo font is installed.</li><li>A camera card is only read in CineSync: nothing is copied to it or from it. Files only a card holds are pointed to Ingest.</li><li>Two cards can report the same ID. A card is now known by its ID and its size, so a friend&#x27;s card can&#x27;t open as one of yours. The first time you insert each of your cards after this update, it may ask once &quot;This is &lt;your card&gt;&quot; — one click and it remembers.</li><li>A card full of videos (over a thousand) opens its panel in seconds instead of more than a minute.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.166.0/CineSense-2.166.0.zip" length="33169395" type="application/octet-stream" sparkle:edSignature="1HcBXbxyKT22bgaU0u5nY/cyzjwOGZOeNGaQ8qkPch5gPaYPF5ZvISi24SD5eOigue2NRBJFQ9Q81x3QCCxZAA=="/>
+</item>
+<item>
   <title>CineSense 2.165.0</title>
   <pubDate>Tue, 20 Oct 2026 01:12:07 GMT</pubDate>
   <sparkle:version>2223</sparkle:version>
