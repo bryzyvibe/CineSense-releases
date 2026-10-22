@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.168.0</title>
+  <pubDate>Thu, 22 Oct 2026 10:55:29 GMT</pubDate>
+  <sparkle:version>2362</sparkle:version>
+  <sparkle:shortVersionString>2.168.0</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.168.0</h2><ul><li>Settings → Notifications: for each kind of job (card ingests, CineTransfer, CloudSense uploads, deliveries, CineSync, Resolve sends, CineSearch), choose a Mac banner, a phone ping, a sound, any mix, or none. Everything starts as it was. Problems that can put footage at risk always show on the Mac and ping your phone. &quot;Play sounds&quot; turns every sound off at once.</li><li>A finished send to Resolve now says so: a banner names what went and into which project, and the Send button reads Sending… then Sent ✓. A send that left something out says so and names what.</li><li>Custom Send says what &quot;one timeline per frame rate&quot; will really make before you send, e.g. &quot;All 100 videos are 59.94 fps, so this makes one timeline&quot;.</li><li>The card panel is snappier: changing an option stops the previous check of the card instead of leaving it running.</li><li>CineSync: after a compare, it can offer to rename a folder so both drives use the same name. Only for folders whose videos were read and matched byte for byte, never ticked for you, and each rename can be undone.</li><li>Two drives that share an ID are now told apart by their size, in CineSync and CloudSense too, like cards since 2.166.</li><li>While a copy runs, the lists of your file names CineSense keeps in the Mac&#x27;s shared temp folder are now readable by you only.</li><li>Release notes show only these plain bullets from now on.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.168.0/CineSense-2.168.0.zip" length="33554152" type="application/octet-stream" sparkle:edSignature="taa1PWo7YwcnOr1e5TIXmigOX4SK8QWtkGEbljTg+8D1Sun+a7SV4AFEOWZrZyh82uq5uAbPUbkb6cRzfjUDDg=="/>
+</item>
+<item>
   <title>CineSense 2.167.0</title>
   <pubDate>Wed, 21 Oct 2026 19:27:23 GMT</pubDate>
   <sparkle:version>2329</sparkle:version>
