@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.169.0</title>
+  <pubDate>Sat, 24 Oct 2026 08:31:22 GMT</pubDate>
+  <sparkle:version>2372</sparkle:version>
+  <sparkle:shortVersionString>2.169.0</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.169.0</h2><ul><li>Old camcorder videos (a Sony Handycam&#x27;s .MPG) now get a copy that plays in iPhone Photos, on the right date and time.</li><li>It is made in the background right after an ingest. The finished screen says &quot;Getting N videos ready for iPhone…&quot; with Stop.</li><li>Then press AirDrop to iPhone on the finished screen. It sends that card&#x27;s videos only.</li><li>Resolve gets the same copy when it is ready. Sending to Resolve never waits for it.</li><li>Your original is never changed. Days you already sent to Resolve keep the copy they had.</li><li>Settings → Ingest → After an ingest: switch it off if you don&#x27;t want it.</li><li>Needs ffmpeg. Without it, the screen says so.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.169.0/CineSense-2.169.0.zip" length="33606151" type="application/octet-stream" sparkle:edSignature="Mrxndlg3d9WYA2skCWgVSaMU9C3wasIBExLTZOh+ImcAH0w03KkRF+25+PKuWl3csOytVJz0ed8WUtEqTW42Dg=="/>
+</item>
+<item>
   <title>CineSense 2.168.0</title>
   <pubDate>Thu, 22 Oct 2026 10:55:29 GMT</pubDate>
   <sparkle:version>2362</sparkle:version>
