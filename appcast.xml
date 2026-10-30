@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.173.1</title>
+  <pubDate>Fri, 30 Oct 2026 01:57:59 GMT</pubDate>
+  <sparkle:version>2772</sparkle:version>
+  <sparkle:shortVersionString>2.173.1</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.173.1</h2><ul><li>The Card Browser is new. Click the card&#x27;s picture on the ingest panel, or press ⌘B, to see the card as pictures before you copy it.</li><li>Hover over a video to scrub through it. Each picture shows whether it is already copied, and to how many drives.</li><li>Pick pictures the way you would in the Finder. Copy just those, star them, or Keep on card (the card then never says safe to format while they are on it).</li><li>Moments puts videos shot close together into one group. Drag a moment onto a scene to file it there.</li><li>A star shows in Resolve as a flag or a clip colour (your choice). A starred RAW photo arrives in Lightroom Classic with 5 stars.</li><li>It opens fast on a big card: a copied card of 1,000 files shows in a few seconds (it took nearly a minute).</li><li>Settings → Card Browser sets how it opens, the moment length, hover preview and what a star does.</li><li>Fixed: a crash while naming scenes. The copy audit counts each drive once. Renaming a card no longer freezes the app.</li><li>Fixed: a stacked timeline no longer drifts on 23.976 or 29.97 footage. A clock-fixed DJI or Insta360 video lands in the right place when you are in another country.</li><li>Fixed: a failing card is no longer blamed on the drive, and a failing drive is no longer blamed on the card.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.173.1/CineSense-2.173.1.zip" length="36416888" type="application/octet-stream" sparkle:edSignature="hNe6qF7vMdZCNC5JzyeQb+a2QfRdxd0ycRdjzXJLSZKbywnhamM7nM4KuROlsUI8HygUhmqbF/x+1JEg3eEPAQ=="/>
+</item>
+<item>
   <title>CineSense 2.172.1</title>
   <pubDate>Wed, 28 Oct 2026 16:39:20 GMT</pubDate>
   <sparkle:version>2555</sparkle:version>
