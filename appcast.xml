@@ -6,6 +6,15 @@
   <description>CineSense updates</description>
   <language>en</language>
 <item>
+  <title>CineSense 2.178.1</title>
+  <pubDate>Thu, 05 Nov 2026 00:00:11 GMT</pubDate>
+  <sparkle:version>3176</sparkle:version>
+  <sparkle:shortVersionString>2.178.1</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h2>CineSense 2.178.1</h2><p>Everything since 2.173.1 arrives in this one update.</p><ul><li>CineTransfer can Move as well as Copy. A file leaves the source only once every copy of it is checked. Stop part way and nothing unchecked is deleted.</li><li>A card Move or a transfer you stop says what was done, what is left, and how to resume. Records → Unfinished lists every run that stopped.</li><li>The top of the menu shows everything CineSense is doing, each with its own Stop.</li><li>Re-check my drives (Settings → Advanced → Drives) reads CineSense&#x27;s copies again and says if any no longer match. It changes nothing on the drive.</li><li>CineSearch finds videos on a renamed drive. A new Words chip searches what was said, what is on screen, or the file name. Right-click a wrong result and choose Not this.</li><li>After a send to Resolve, Show the report lists what was placed and what was left out. Send again sends only what was left out.</li><li>The Card Browser is quicker. It has Moments, a Copy sheet, and a video plays when the pointer rests on it.</li><li>A card keeps its own choices while it stays in. After a Copy it never comes back as a Move.</li><li>After a copy from the Card Browser, the ingest panel stays on that card.</li></ul><p>Tested on</p><p>Tested means we ran it. Expected to work means we have no record of running it. The full list is in CineSense-2.178.1-tested-on.md next to this download.</p><ul><li>One Mac: MacBook Pro, Apple M1 Max, macOS 26.7.2. Not tested on macOS 13, 14 or 15, on Intel Macs, or on other chips.</li><li>FAT32, exFAT, Mac OS Extended and APFS on disk images. Not on physical cards in every reader.</li><li>Cameras: real cards copied and checked for two cameras (Sony and DJI); a real card&#x27;s layout read for one camera; test cards only for six cameras; expected to work, no record yet, for 17 cameras.</li><li>DaVinci Resolve Studio 21.1.0.14, run for real; the automatic tests use a model of Resolve. Not tested: other versions, the free version, Premiere Pro, Final Cut Pro.</li><li>Cloud copies to Backblaze B2, Google Drive, Dropbox and Hetzner Storage Box (SFTP), run for real. Not run against a real account: an SFTP server of your own; Amazon S3 and other S3 services.</li><li>80 board results on this exact code, none failed.</li></ul>]]></description>
+  <enclosure url="https://github.com/bryzyvibe/CineSense-releases/releases/download/v2.178.1/CineSense-2.178.1.zip" length="38871335" type="application/octet-stream" sparkle:edSignature="NyQbVyWgdjGZ1cnNytr+Fi/t4YC67j2NSqUnM8xXlPt0qhEgE2345lDP1YSI0Ooygfkbw/Criwxd4ev1dgd2Bw=="/>
+</item>
+<item>
   <title>CineSense 2.173.1</title>
   <pubDate>Fri, 30 Oct 2026 01:57:59 GMT</pubDate>
   <sparkle:version>2772</sparkle:version>
