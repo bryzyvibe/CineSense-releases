@@ -1,17 +1,17 @@
 {
  "format": 1,
- "version": "2.178.1",
- "commit": "c9d52f750363f76cec69351d3fed38a9523e65c4",
- "tree": "71adbb52df4dc6773096aad28a7690fdb0168446",
+ "version": "2.181.0",
+ "commit": "d67f3d2e16820533ec08b5bc00b5283d79356c99",
+ "tree": "4835dceb0fd02f81c2d26b917331c496a63dc695",
  "board": {
   "results": 80,
   "failed": 0,
-  "checks": 21932,
+  "checks": 26005,
   "skipped": 0,
   "red": false,
   "code": "exact",
   "differs": [],
-  "date": "2026-11-05",
+  "date": "2026-11-19",
   "released_red_because": ""
  },
  "mac": {
@@ -33,7 +33,7 @@
  ],
  "intro": [
   "**Tested** means we ran it, and this page says on what, when, and with which version. **Expected to work** means we think it will and have no record of running it. Nothing on this page is a promise.",
-  "The automatic tests ran on 5 November 2026, on the exact code in this download."
+  "The automatic tests ran on 19 November 2026, on the exact code in this download."
  ],
  "sections": [
   {
@@ -52,7 +52,7 @@
    "say": [
     "Copying to and from **FAT32, exFAT, Mac OS Extended and APFS** was tested.",
     "Those tests ran on **disk images**. macOS mounts a disk image with the same file system drivers as a real card, but a disk image is not a physical card or a card reader.",
-    "Used for real, outside the tests, CineSense read cards formatted as exFAT and wrote to drives formatted as exFAT; the last time on 5 November 2026 with CineSense 2.178.1.",
+    "Used for real, outside the tests, CineSense read cards formatted as FAT (FAT32 or FAT16) and exFAT and wrote to drives formatted as exFAT; the last time on 19 November 2026 with CineSense 2.181.0.",
     "Not tested: NTFS drives, network drives, drives behind hubs or docks, and cards in readers other than the ones we own."
    ]
   },
@@ -62,8 +62,9 @@
    "say": [
     "**Tested** below means a real card. Each camera is in one group only, the highest its records support.",
     "**Tested on real cards.** Cards from these cameras were copied and checked by CineSense on a real Mac, outside the tests. The date is the last time. This says the card was read, filed by date and verified; it does not say every setting works with that camera.",
-    "- **Sony ZV-E1**: Copied and checked once, the last on 2 November 2026 with CineSense 2.178.0.",
-    "- **DJI Mavic 4**: Copied and checked 4 times, the last on 5 November 2026 with CineSense 2.178.1.",
+    "- **Sony ZV-E1**: Copied and checked 23 times, the last on 19 November 2026 with CineSense 2.181.0.",
+    "- **DJI Mavic 4**: Copied and checked 5 times, the last on 10 November 2026 with CineSense 2.178.1.",
+    "- **Insta360 Ace Pro 2**: Copied and checked twice, the last on 16 November 2026 with CineSense 2.178.1.",
     "**Layout read from a real card, not copied.** A camera report from a real card shows CineSense reads its folders and names the camera. No record yet of a real card of these being copied.",
     "- **GoPro Mission 1 Pro ILS**: A camera report from a real card, of 8 October 2026, made with CineSense 2.158.0.",
     "**Tested on test cards only.** Our tests build a card laid out like these cameras'. No record of a real card of them yet.",
@@ -71,7 +72,6 @@
     "- Sony FX3",
     "- Sony Handycam (Memory Stick video layout)",
     "- Nikon ZR",
-    "- Insta360 Ace Pro 2",
     "- Canon EOS C80",
     "**Expected to work.** No record yet of a card of these, real or in the tests.",
     "- Sony A7V",
@@ -98,8 +98,9 @@
    "id": "resolve",
    "title": "DaVinci Resolve",
    "say": [
-    "Sending a day to Resolve was run for real in **DaVinci Resolve Studio 21.1.0.14**: 2 sends, the last on 5 November 2026 with CineSense 2.178.1.",
-    "The automatic tests send into **a model of Resolve built from measurements**, not into Resolve itself. 1380 of those checks ran, and none was skipped.",
+    "Sending a day to Resolve was run for real in **DaVinci Resolve Studio 21.2.0.5**: one send, the last on 19 November 2026 with CineSense 2.181.0.",
+    "Also run for real in DaVinci Resolve Studio 21.1.0.14: 7 sends, the last on 15 November 2026 with CineSense 2.178.1.",
+    "The automatic tests send into **a model of Resolve built from measurements**, not into Resolve itself. 1410 of those checks ran, and none was skipped.",
     "Other versions of Resolve: not tested.",
     "The free version of Resolve cannot be controlled by other apps: not tested. Sending to Premiere Pro or Final Cut Pro: **not supported**."
    ]
@@ -118,10 +119,10 @@
    "title": "How the automatic tests went",
    "say": [
     "**80 results on the board, none failed.**",
-    "They are the engine's test suites, the app's own self-test (11544 checks), the Resolve colour check, the CineSearch suite and the tidy check.",
-    "In all, 21932 checks passed.",
+    "They are the engine's test suites, the app's own self-test (12914 checks), the Resolve colour check, the CineSearch suite and the tidy check.",
+    "In all, 26005 checks passed.",
     "No check was skipped.",
-    "Run on 5 November 2026, on the Mac above."
+    "Run on 19 November 2026, on the Mac above."
    ]
   },
   {
@@ -143,11 +144,11 @@
    "id": "sony-zv-e1",
    "display": "Sony ZV-E1",
    "level": "real",
-   "say": "Copied and checked once, the last on 2 November 2026 with CineSense 2.178.0.",
-   "runs": 1,
+   "say": "Copied and checked 23 times, the last on 19 November 2026 with CineSense 2.181.0.",
+   "runs": 23,
    "last": {
-    "date": "2026-11-02",
-    "version": "2.178.0"
+    "date": "2026-11-19",
+    "version": "2.181.0"
    },
    "from": "here"
   },
@@ -215,10 +216,10 @@
    "id": "dji-mavic-4",
    "display": "DJI Mavic 4",
    "level": "real",
-   "say": "Copied and checked 4 times, the last on 5 November 2026 with CineSense 2.178.1.",
-   "runs": 4,
+   "say": "Copied and checked 5 times, the last on 10 November 2026 with CineSense 2.178.1.",
+   "runs": 5,
    "last": {
-    "date": "2026-11-05",
+    "date": "2026-11-10",
     "version": "2.178.1"
    },
    "from": "here"
@@ -232,8 +233,14 @@
   {
    "id": "insta360-ace-pro-2",
    "display": "Insta360 Ace Pro 2",
-   "level": "fixture",
-   "say": "Our tests build a card laid out like this camera's."
+   "level": "real",
+   "say": "Copied and checked twice, the last on 16 November 2026 with CineSense 2.178.1.",
+   "runs": 2,
+   "last": {
+    "date": "2026-11-16",
+    "version": "2.178.1"
+   },
+   "from": "here"
   },
   {
    "id": "gopro-hero13-black",
@@ -314,23 +321,32 @@
  ],
  "drives_real": {
   "card": [
+   "msdos",
    "exfat"
   ],
   "dest": [
    "exfat"
   ],
   "last": {
-   "date": "2026-11-05",
-   "version": "2.178.1"
+   "date": "2026-11-19",
+   "version": "2.181.0"
   }
  },
  "resolve_live": [
   {
+   "version": "21.2.0.5",
+   "studio": "true",
+   "sends": 1,
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "cs": "2.181.0"
+  },
+  {
    "version": "21.1.0.14",
    "studio": "true",
-   "sends": 2,
+   "sends": 7,
    "first": "2026-11-05",
-   "last": "2026-11-05",
+   "last": "2026-11-15",
    "cs": "2.178.1"
   }
  ],
@@ -352,5 +368,5 @@
    "last": "2026-10-17"
   }
  },
- "notes_block": "**Tested on**\n\nTested means we ran it. Expected to work means we have no record of running it. The full list is in CineSense-2.178.1-tested-on.md next to this download.\n\n- One Mac: MacBook Pro, Apple M1 Max, macOS 26.7.2. Not tested on macOS 13, 14 or 15, on Intel Macs, or on other chips.\n- FAT32, exFAT, Mac OS Extended and APFS on disk images. Not on physical cards in every reader.\n- Cameras: real cards copied and checked for two cameras (Sony and DJI); a real card's layout read for one camera; test cards only for six cameras; expected to work, no record yet, for 17 cameras.\n- DaVinci Resolve Studio 21.1.0.14, run for real; the automatic tests use a model of Resolve. Not tested: other versions, the free version, Premiere Pro, Final Cut Pro.\n- Cloud copies to Backblaze B2, Google Drive, Dropbox and Hetzner Storage Box (SFTP), run for real. Not run against a real account: an SFTP server of your own; Amazon S3 and other S3 services.\n- 80 board results on this exact code, none failed.\n"
+ "notes_block": "**Tested on**\n\nTested means we ran it. Expected to work means we have no record of running it. The full list is in CineSense-2.181.0-tested-on.md next to this download.\n\n- One Mac: MacBook Pro, Apple M1 Max, macOS 26.7.2. Not tested on macOS 13, 14 or 15, on Intel Macs, or on other chips.\n- FAT32, exFAT, Mac OS Extended and APFS on disk images. Not on physical cards in every reader.\n- Cameras: real cards copied and checked for three cameras (Sony, DJI and Insta360); a real card's layout read for one camera; test cards only for five cameras; expected to work, no record yet, for 17 cameras.\n- DaVinci Resolve Studio 21.2.0.5, run for real; the automatic tests use a model of Resolve. Not tested: other versions, the free version, Premiere Pro, Final Cut Pro.\n- Cloud copies to Backblaze B2, Google Drive, Dropbox and Hetzner Storage Box (SFTP), run for real. Not run against a real account: an SFTP server of your own; Amazon S3 and other S3 services.\n- 80 board results on this exact code, none failed.\n"
 }

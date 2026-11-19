@@ -1,0 +1,372 @@
+{
+ "format": 1,
+ "version": "2.181.0",
+ "commit": "d67f3d2e16820533ec08b5bc00b5283d79356c99",
+ "tree": "4835dceb0fd02f81c2d26b917331c496a63dc695",
+ "board": {
+  "results": 80,
+  "failed": 0,
+  "checks": 26005,
+  "skipped": 0,
+  "red": false,
+  "code": "exact",
+  "differs": [],
+  "date": "2026-11-19",
+  "released_red_because": ""
+ },
+ "mac": {
+  "model": "MacBook Pro",
+  "chip": "Apple M1 Max",
+  "memory_gb": 64,
+  "macos": "26.7.2",
+  "macos_build": "25G332",
+  "archs": [
+   "arm64"
+  ],
+  "minimum_macos": "13.0"
+ },
+ "filesystems": [
+  "FAT32",
+  "exFAT",
+  "Mac OS Extended",
+  "APFS"
+ ],
+ "intro": [
+  "**Tested** means we ran it, and this page says on what, when, and with which version. **Expected to work** means we think it will and have no record of running it. Nothing on this page is a promise.",
+  "The automatic tests ran on 19 November 2026, on the exact code in this download."
+ ],
+ "sections": [
+  {
+   "id": "mac",
+   "title": "Your Mac",
+   "say": [
+    "Tested on **one Mac**: a MacBook Pro with an Apple M1 Max chip and 64 GB of memory, running **macOS 26.7.2**.",
+    "Built for **Apple silicon** Macs. It is not built for Intel Macs.",
+    "It asks for macOS 13 or later. **We have not run it on macOS 13, 14 or 15, or on any macOS but 26.7.2.** It may work there; we do not know.",
+    "Other Macs and other Apple chips: not tested."
+   ]
+  },
+  {
+   "id": "drives",
+   "title": "Cards and drives",
+   "say": [
+    "Copying to and from **FAT32, exFAT, Mac OS Extended and APFS** was tested.",
+    "Those tests ran on **disk images**. macOS mounts a disk image with the same file system drivers as a real card, but a disk image is not a physical card or a card reader.",
+    "Used for real, outside the tests, CineSense read cards formatted as FAT (FAT32 or FAT16) and exFAT and wrote to drives formatted as exFAT; the last time on 19 November 2026 with CineSense 2.181.0.",
+    "Not tested: NTFS drives, network drives, drives behind hubs or docks, and cards in readers other than the ones we own."
+   ]
+  },
+  {
+   "id": "cameras",
+   "title": "Cameras",
+   "say": [
+    "**Tested** below means a real card. Each camera is in one group only, the highest its records support.",
+    "**Tested on real cards.** Cards from these cameras were copied and checked by CineSense on a real Mac, outside the tests. The date is the last time. This says the card was read, filed by date and verified; it does not say every setting works with that camera.",
+    "- **Sony ZV-E1**: Copied and checked 23 times, the last on 19 November 2026 with CineSense 2.181.0.",
+    "- **DJI Mavic 4**: Copied and checked 5 times, the last on 10 November 2026 with CineSense 2.178.1.",
+    "- **Insta360 Ace Pro 2**: Copied and checked twice, the last on 16 November 2026 with CineSense 2.178.1.",
+    "**Layout read from a real card, not copied.** A camera report from a real card shows CineSense reads its folders and names the camera. No record yet of a real card of these being copied.",
+    "- **GoPro Mission 1 Pro ILS**: A camera report from a real card, of 8 October 2026, made with CineSense 2.158.0.",
+    "**Tested on test cards only.** Our tests build a card laid out like these cameras'. No record of a real card of them yet.",
+    "- Sony A7 IV",
+    "- Sony FX3",
+    "- Sony Handycam (Memory Stick video layout)",
+    "- Nikon ZR",
+    "- Canon EOS C80",
+    "**Expected to work.** No record yet of a card of these, real or in the tests.",
+    "- Sony A7V",
+    "- Sony A7S III",
+    "- Sony FX30",
+    "- Sony FX6",
+    "- AVCHD cameras (the PRIVATE/AVCHD layout)",
+    "- Sony cameras that record XAVC in the XDROOT layout: from the maker's manual",
+    "- DJI Osmo Action cameras",
+    "- GoPro HERO13 Black",
+    "- Canon EOS C50",
+    "- Canon EOS R5",
+    "- Canon XF-AVC S and XF-HEVC S cards (XFVC): from the maker's manual",
+    "- Fujifilm X-H2S",
+    "- Panasonic Lumix S5IIX",
+    "- iPhone 15 Pro Max",
+    "- Blackmagic cameras (.braw at the root of the card): from the maker's manual",
+    "- RED cameras (.R3D in .RDM folders): from the maker's manual",
+    "- Z CAM (.zraw): from the maker's manual",
+    "Not supported: Panasonic P2 cards, CinemaDNG folders and Atomos recorders."
+   ]
+  },
+  {
+   "id": "resolve",
+   "title": "DaVinci Resolve",
+   "say": [
+    "Sending a day to Resolve was run for real in **DaVinci Resolve Studio 21.2.0.5**: one send, the last on 19 November 2026 with CineSense 2.181.0.",
+    "Also run for real in DaVinci Resolve Studio 21.1.0.14: 7 sends, the last on 15 November 2026 with CineSense 2.178.1.",
+    "The automatic tests send into **a model of Resolve built from measurements**, not into Resolve itself. 1410 of those checks ran, and none was skipped.",
+    "Other versions of Resolve: not tested.",
+    "The free version of Resolve cannot be controlled by other apps: not tested. Sending to Premiere Pro or Final Cut Pro: **not supported**."
+   ]
+  },
+  {
+   "id": "cloud",
+   "title": "Cloud copies (CloudSense)",
+   "say": [
+    "Run for real against **Backblaze B2**, **Google Drive**, **Dropbox** and **Hetzner Storage Box (SFTP)**: 40 uploads in all, the last on 27 October 2026.",
+    "Not run against a real account: an SFTP server of your own; Amazon S3 and other S3 services.",
+    "The automatic tests use a stand-in for every service (rclone v1.75.1 sending to a folder on this Mac). They never touch a real account."
+   ]
+  },
+  {
+   "id": "board",
+   "title": "How the automatic tests went",
+   "say": [
+    "**80 results on the board, none failed.**",
+    "They are the engine's test suites, the app's own self-test (12914 checks), the Resolve colour check, the CineSearch suite and the tidy check.",
+    "In all, 26005 checks passed.",
+    "No check was skipped.",
+    "Run on 19 November 2026, on the Mac above."
+   ]
+  },
+  {
+   "id": "not_tested",
+   "title": "What was not tested",
+   "say": [
+    "macOS 13, 14 and 15; any macOS 26 other than 26.7.2; Intel Macs; other Apple chips",
+    "NTFS drives, network drives, drives behind hubs and docks, physical card readers other than ours",
+    "With a real card, as far as the records show: the cameras under Expected to work and under Test cards only",
+    "Other versions of DaVinci Resolve",
+    "The free version of DaVinci Resolve; Premiere Pro; Final Cut Pro",
+    "An SFTP server of your own; Amazon S3 and other S3 services: with a real account",
+    "CineSearch (a separate add-on; it gets its own list when it ships)"
+   ]
+  }
+ ],
+ "cameras": [
+  {
+   "id": "sony-zv-e1",
+   "display": "Sony ZV-E1",
+   "level": "real",
+   "say": "Copied and checked 23 times, the last on 19 November 2026 with CineSense 2.181.0.",
+   "runs": 23,
+   "last": {
+    "date": "2026-11-19",
+    "version": "2.181.0"
+   },
+   "from": "here"
+  },
+  {
+   "id": "sony-a7-iv",
+   "display": "Sony A7 IV",
+   "level": "fixture",
+   "say": "Our tests build a card laid out like this camera's."
+  },
+  {
+   "id": "sony-a7v",
+   "display": "Sony A7V",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "sony-a7s-iii",
+   "display": "Sony A7S III",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "sony-fx3",
+   "display": "Sony FX3",
+   "level": "fixture",
+   "say": "Our tests build a card laid out like this camera's."
+  },
+  {
+   "id": "sony-fx30",
+   "display": "Sony FX30",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "sony-fx6",
+   "display": "Sony FX6",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "sony-handycam",
+   "display": "Sony Handycam (Memory Stick video layout)",
+   "level": "fixture",
+   "say": "Our tests build a card laid out like this camera's."
+  },
+  {
+   "id": "avchd",
+   "display": "AVCHD cameras (the PRIVATE/AVCHD layout)",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "sony-xdroot",
+   "display": "Sony cameras that record XAVC in the XDROOT layout",
+   "level": "named",
+   "say": "CineSense knows the folder layout from the maker's manual."
+  },
+  {
+   "id": "nikon-zr",
+   "display": "Nikon ZR",
+   "level": "fixture",
+   "say": "Our tests build a card laid out like this camera's."
+  },
+  {
+   "id": "dji-mavic-4",
+   "display": "DJI Mavic 4",
+   "level": "real",
+   "say": "Copied and checked 5 times, the last on 10 November 2026 with CineSense 2.178.1.",
+   "runs": 5,
+   "last": {
+    "date": "2026-11-10",
+    "version": "2.178.1"
+   },
+   "from": "here"
+  },
+  {
+   "id": "dji-osmo-action",
+   "display": "DJI Osmo Action cameras",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "insta360-ace-pro-2",
+   "display": "Insta360 Ace Pro 2",
+   "level": "real",
+   "say": "Copied and checked twice, the last on 16 November 2026 with CineSense 2.178.1.",
+   "runs": 2,
+   "last": {
+    "date": "2026-11-16",
+    "version": "2.178.1"
+   },
+   "from": "here"
+  },
+  {
+   "id": "gopro-hero13-black",
+   "display": "GoPro HERO13 Black",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "gopro-mission-1-pro-ils",
+   "display": "GoPro Mission 1 Pro ILS",
+   "level": "report",
+   "say": "A camera report from a real card, of 8 October 2026, made with CineSense 2.158.0.",
+   "last": {
+    "date": "2026-10-08",
+    "version": "2.158.0"
+   }
+  },
+  {
+   "id": "canon-eos-c50",
+   "display": "Canon EOS C50",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "canon-eos-c80",
+   "display": "Canon EOS C80",
+   "level": "fixture",
+   "say": "Our tests build a card laid out like this camera's."
+  },
+  {
+   "id": "canon-eos-r5",
+   "display": "Canon EOS R5",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "canon-xf",
+   "display": "Canon XF-AVC S and XF-HEVC S cards (XFVC)",
+   "level": "named",
+   "say": "CineSense knows the folder layout from the maker's manual."
+  },
+  {
+   "id": "fujifilm-x-h2s",
+   "display": "Fujifilm X-H2S",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "panasonic-lumix-s5iix",
+   "display": "Panasonic Lumix S5IIX",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "apple-iphone-15-pro-max",
+   "display": "iPhone 15 Pro Max",
+   "level": "named",
+   "say": "CineSense names it from its files; no record of a card of it yet."
+  },
+  {
+   "id": "blackmagic",
+   "display": "Blackmagic cameras (.braw at the root of the card)",
+   "level": "named",
+   "say": "CineSense knows the folder layout from the maker's manual."
+  },
+  {
+   "id": "red",
+   "display": "RED cameras (.R3D in .RDM folders)",
+   "level": "named",
+   "say": "CineSense knows the folder layout from the maker's manual."
+  },
+  {
+   "id": "z-cam",
+   "display": "Z CAM (.zraw)",
+   "level": "named",
+   "say": "CineSense knows the folder layout from the maker's manual."
+  }
+ ],
+ "drives_real": {
+  "card": [
+   "msdos",
+   "exfat"
+  ],
+  "dest": [
+   "exfat"
+  ],
+  "last": {
+   "date": "2026-11-19",
+   "version": "2.181.0"
+  }
+ },
+ "resolve_live": [
+  {
+   "version": "21.2.0.5",
+   "studio": "true",
+   "sends": 1,
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "cs": "2.181.0"
+  },
+  {
+   "version": "21.1.0.14",
+   "studio": "true",
+   "sends": 7,
+   "first": "2026-11-05",
+   "last": "2026-11-15",
+   "cs": "2.178.1"
+  }
+ ],
+ "cloud_live": {
+  "b2": {
+   "runs": 16,
+   "last": "2026-10-17"
+  },
+  "drive": {
+   "runs": 10,
+   "last": "2026-10-27"
+  },
+  "dropbox": {
+   "runs": 6,
+   "last": "2026-10-17"
+  },
+  "storageBox": {
+   "runs": 8,
+   "last": "2026-10-17"
+  }
+ },
+ "notes_block": "**Tested on**\n\nTested means we ran it. Expected to work means we have no record of running it. The full list is in CineSense-2.181.0-tested-on.md next to this download.\n\n- One Mac: MacBook Pro, Apple M1 Max, macOS 26.7.2. Not tested on macOS 13, 14 or 15, on Intel Macs, or on other chips.\n- FAT32, exFAT, Mac OS Extended and APFS on disk images. Not on physical cards in every reader.\n- Cameras: real cards copied and checked for three cameras (Sony, DJI and Insta360); a real card's layout read for one camera; test cards only for five cameras; expected to work, no record yet, for 17 cameras.\n- DaVinci Resolve Studio 21.2.0.5, run for real; the automatic tests use a model of Resolve. Not tested: other versions, the free version, Premiere Pro, Final Cut Pro.\n- Cloud copies to Backblaze B2, Google Drive, Dropbox and Hetzner Storage Box (SFTP), run for real. Not run against a real account: an SFTP server of your own; Amazon S3 and other S3 services.\n- 80 board results on this exact code, none failed.\n"
+}
